@@ -1,5 +1,9 @@
 fastapi
 uvicorn
-streamlit
-google-generativeai
+sqlalchemy
+joblib
 pandas
+numpy
+scikit-learn
+xgboost
+python-multipart

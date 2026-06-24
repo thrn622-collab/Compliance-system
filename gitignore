@@ -1,0 +1,18 @@
+# Databases
+*.db
+compliance.db
+
+# Uploaded files and datasets
+uploads/
+*.pdf
+*.csv
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments and Secrets
+.env
+venv/
+env/

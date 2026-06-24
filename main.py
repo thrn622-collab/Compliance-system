@@ -3,7 +3,7 @@
 from fastapi import FastAPI, Depends, HTTPException, File, UploadFile, Form
 from fastapi.responses import HTMLResponse
 from sqlalchemy.orm import Session
-from db import engine, get_db  # تم التحديث هنا ليقرأ من db.py
+from db import engine, get_db  
 import models
 import schemas
 import shutil
