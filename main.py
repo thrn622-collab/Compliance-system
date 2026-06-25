@@ -162,6 +162,10 @@ def read_root():
                                 <input type="file" id="doc_signatory_id" accept="image/*,.pdf" class="w-full text-xs text-slate-500 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 cursor-pointer">
                             </div>
                             <div>
+                                <label class="block text-xs font-bold text-slate-600 mb-1">KYC</label>
+                                <input type="file" id="doc_kyc" accept="image/*,.pdf" class="w-full text-xs text-slate-500 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 cursor-pointer">
+                            </div>
+                            <div>
                                 <label class="block text-xs font-bold text-slate-600 mb-1">خطاب تفويض رسمي</label>
                                 <input type="file" id="doc_auth_letter" accept="image/*,.pdf" class="w-full text-xs text-slate-500 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 cursor-pointer">
                             </div>
